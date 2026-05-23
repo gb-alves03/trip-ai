@@ -1,0 +1,14 @@
+package com.trip_ai.domain.enums;
+
+public enum BotState {
+    IDLE,
+    WAITING_NAME,
+    WAITING_ORIGIN,
+    WAITING_DESTINATION,
+    WAITING_DATES,
+    WAITING_BUDGET,
+    WAITING_DIRECT_PREFERENCE,
+    AWAITING_CONFIRMATION,
+    ACTIVE,
+    PAUSED
+}
